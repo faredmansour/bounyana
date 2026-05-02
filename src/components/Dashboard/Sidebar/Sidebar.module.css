@@ -1,0 +1,16 @@
+.sidebar{
+    background-color: var(--main-color);
+    color: var(--wh-color);
+    width: 240px;
+}
+.item{
+    font-size: 0.9rem;
+}
+.navitem{
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.navitem:hover{
+    cursor: pointer;
+    background-color:brown;
+}

@@ -1,0 +1,44 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+ :root{
+  --main-color:#00315E;
+  --second-color:#4FB7B3;
+  --wh-color:#FFFFFF;
+  --third-color:#6EC1E4;
+  --text-color:#000;
+
+ }
+*{
+margin:0;
+ padding:0;
+ box-sizing: border-box;
+ font-family: "cairo",sans-serif;
+
+}
+ body{
+  color: var(--text-color);
+ }
+ .btn{
+  color: var(--wh-color);
+  background-color: var(--main-color);
+ }
+ .LIST{
+  color: var(--wh-color);
+  background-color: var(--main-color);
+ }
+ .LIST {
+  list-style: none;
+  
+}
+.li{
+  padding: 0px 10px;
+}
+.color{
+  color: var(--main-color);
+}
+.uppersection{
+  background-color: lightgray;
+}
+.card{
+  background-color: var(--third-color);
+  border: 1px ;
+}
