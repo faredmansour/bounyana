@@ -42,3 +42,11 @@ margin:0;
   background-color: var(--third-color);
   border: 1px ;
 }
+.Dashboard{
+  background-color:gainsboro;
+  
+}
+.dash{
+  margin-left: 20px;
+  color: var(--main-color);
+}
