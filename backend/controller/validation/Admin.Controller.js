@@ -5,4 +5,4 @@ const jwt = require ("jsonwebtoken")
 
 const signtoken =(id)=>{
 return jwt.sign({id},process.env.JWT_SECRET, {expiresIn:"7d"})
-};
+};git 
